@@ -1,0 +1,55 @@
+
+body{								/*Background et général body*/
+	text-align: center;
+	color:#230903;
+	background:rgb(200,200,200);
+}
+h1{									/*Catégorie h1*/
+	color:black;
+	font-family: Georgia
+	font-style:italic
+
+}									/*Design de la photo de profil*/
+.image-circle{
+	width: 300px;
+	height:400px;
+	border-radius: 50%;
+}
+h2{									/*Catégorie h2*/
+	font-family:Helvetica;
+	text-align: center;
+}
+
+h3{
+	font-size: 26px;
+	font-family:Helvetica;
+}
+a{
+	color:black;
+	font-size:100px;
+	transition:1s;
+}
+a:hover{
+	color:blue;
+	transition:1s;
+}
+
+.container .card-white{
+  	background:white;
+  	padding:30px ;
+  	margin:200px 200px;
+  	box-shadow:10px 20px 40px rgba(0,0,0,1);
+  	border-radius: 10px;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px
+}
+.list-inline li{
+	display:inline;
+	padding: 10px;
+
+}
+.list-inline i{
+	
+}
